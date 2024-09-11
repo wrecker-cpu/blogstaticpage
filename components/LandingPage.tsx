@@ -59,10 +59,10 @@ export default function LandingPage() {
             </div>
             <div className="py-[190px] flex flex-col items-start justify-center mx-10 font-roboto">
               <div className="font-normal">
-                <p className="ml-1">{data[0]?.title}</p>
+                <p className="ml-1">Explore . Write . Read</p>
               </div>
               <div className="text-[45px] font-semibold font-Inter leading-tight text-gray-800 mt-5">
-                <p>{data[0]?.headingdescription}</p>
+                <p>Code Chronicles: Exploring the Intersection of Frontend and Backend Development through Blogs</p>
               </div>
               <div className="mt-4 font-Inter font-medium text-[20px] tracking-wide">
                 <p>Typescript Used</p>
@@ -72,13 +72,11 @@ export default function LandingPage() {
         )}
       </div>
       <div className="lg-1070:w-1/2 h-auto hidden lg-1070:block">
-        {data[0]?.svgs[0] && (
           <img
             className="lg-1070:w-[100vw]"
-            src={data[0]?.svgs[0]?.svg}
-            alt={data[0]?.svgs[0]?.altText}
+            src="https://cdn.sanity.io/images/zkvez4bd/production/4d38ce0b254d9b5aff01f1a131aeaaf48ae17e3f-821x1079.svg?w=828&q=100&fit=clip&auto=format"
+            alt="wth"
           />
-        )}
       </div>
     </div>
   );
